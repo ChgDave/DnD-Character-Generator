@@ -1,0 +1,32 @@
+<!-- Character Template -->
+<img class="background" src="/asset/background-image.png">
+<div class="character-template">
+  <div class="strong character-info">
+    <h2
+      id="character-name"
+      class="box-outline"
+    >{{character.character_name}}</h2>
+    <H2 id="character-class" class="box-outline">Class:
+      {{character.class.name}}</H2>
+    <h2 id="character-race" class="box-outline">
+      Race:
+      {{character.race.name}}</H2>
+  </div>
+  <div class="character-stats">
+    <div class="character-abilities">
+      <h2 class="character-strength box-outline">Strength: {{character.class.strength}}</h2>
+      <h2 class="character-intelligence box-outline">Intelligence: {{character.class.intelligence}}</h2>
+      <h2 class="character-dexterity box-outline">Dexterity: {{character.class.dexterity}}</h2>
+    </div>
+    <div class="character-image-section magiccard2" ><img src="{{character.class.image}}" /> </div>
+    <div class="character-abilities">
+        <h2 class="character-hp fb box-outline">Hit Points: {{character.class.hit_points}}</h2>
+      <h2 class="character-wisdom box-outline">Wisdom: {{character.class.wisdom}}</h2>
+      <h2 class="character-constitution box-outline">Constitution: {{character.class.constitution}}</h2>
+      <h2 class="character-charisma box-outline">Charisma: {{character.class.charisma}}</h2>
+   </div>
+  </div>
+
+</div>
+<script src="/js/character.js"></script>
+
